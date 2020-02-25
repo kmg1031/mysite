@@ -1,6 +1,6 @@
 from django.contrib import admin
-from polls.models import *
+from .models import Question
 
 # Register your models here.
 
-admin.site.Register(Furits)
+admin.site.register(Question)
